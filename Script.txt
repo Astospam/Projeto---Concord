@@ -1,0 +1,28 @@
+create-user ilo@gmail.com 1223 Ilo Benevides
+create-user maldosos@gmail.com 54321 Maldosos Co
+create-user ilo@gmail.com 4444 Hacker Mal
+create-user hacker@hotmail.com 323 Hacker Bom
+login ilo@gmail.com 1224
+login ilo@gmail.com 1223
+create-server Games
+disconnect
+login hacker@hotmail.com 323
+hack-user
+set-server-desc Games Um servidor chato
+set-server-invite-code Games 999
+create-server Hackers
+disconnect
+login ilo@gmail.com 1223
+set-server-desc Games Um servidor legal
+set-server-invite-code Games 1234
+list-servers
+disconnect
+login hacker@hotmail.com 323
+remove-server Games
+remove-server Hackers
+list-servers
+enter-server Games 4321
+enter-server Games 1234
+list-participants
+leave-server
+quit
